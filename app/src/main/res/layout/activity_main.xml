@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg3"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/btn_bluetooth"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:drawableLeft="@android:drawable/stat_sys_data_bluetooth"
+        android:text="Bluetooth" />
+
+    <Switch
+        android:id="@+id/sw_bluetooth"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/btn_bluetooth"
+        android:layout_toRightOf="@+id/btn_bluetooth"/>
+
+    <Button
+        android:id="@+id/btn_location"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="100dp"
+        android:text="Location" />
+
+    <Switch
+        android:id="@+id/sw_location"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/btn_location"
+        android:layout_toRightOf="@+id/btn_location" />
+
+    <Button
+        android:id="@+id/btn_wifi"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="200dp"
+        android:text="WiFi" />
+
+    <Switch
+        android:id="@+id/sw_wifi"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/btn_wifi"
+        android:layout_toRightOf="@+id/btn_wifi" />
+
+
+</RelativeLayout>
